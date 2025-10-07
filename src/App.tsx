@@ -1,10 +1,13 @@
-import { AlignHorizontalSpaceAround } from "lucide-react";
+import Layout from "./components/layout/Layout.tsx";
+import Todo from "./components/todo/Todo.tsx";
 
 function App() {
 
   return (
     <>
-        <AlignHorizontalSpaceAround size={48} />
+        <Layout>
+            <Todo />
+        </Layout>
     </>
   )
 }
